@@ -48,7 +48,7 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 工具 | weaveworks/scope| 1.11.5 |
 | 工具 | quay.io/comcast/kuberhealthy:v1.0.2 | v1.0.2 |
 
-## 3. RPM 包（基于 CentOS 7.6 Minimal 及以上版本）
+## 3. RPM 包（基于 CentOS 7.6 Minimal）
 
 |  分类  |  组件名称  |
 |  ---- |  ----   |
