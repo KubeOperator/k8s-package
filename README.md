@@ -21,9 +21,9 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 |  分类  |  组件名称   | 版本  |
 |  ---- |  ----  | ----  |
 | 网络 | quay.io/coreos/flannel | v0.11.0-amd64 |
-| 网络 | calico/node:v3.4.4 | v3.4.4 |
-| 网络 | calico/cni:v3.4.4 | v3.4.4 |
-| 网络 | calico/kube-controllers:v3.4.4 | v3.4.4 |
+| 网络 | calico/node | v3.4.4 |
+| 网络 | calico/cni | v3.4.4 |
+| 网络 | calico/kube-controllers | v3.4.4 |
 | 网络 | docker.io/coredns/coredns | 1.6.0 |
 | 网络 | docker.io/traefik | v1.7.11 |
 | 网络 | f5networks/k8s-bigip-ctlr | 1.9.2 |
