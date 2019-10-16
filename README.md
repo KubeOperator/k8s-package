@@ -21,9 +21,9 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 |  分类  |  组件名称   | 版本  |
 |  ---- |  ----  | ----  |
 | 网络 | quay.io/coreos/flannel | v0.11.0-amd64 |
-| 网络 | calico/node | v3.4.4 |
-| 网络 | calico/cni | v3.4.4 |
-| 网络 | calico/kube-controllers | v3.4.4 |
+| 网络 | calico/node | v3.7.3 |
+| 网络 | calico/cni | v3.7.3 |
+| 网络 | calico/kube-controllers | v3.7.3 |
 | 网络 | docker.io/coredns/coredns | 1.6.0 |
 | 网络 | docker.io/traefik | v1.7.11 |
 | 网络 | f5networks/k8s-bigip-ctlr | 1.9.2 |
@@ -32,13 +32,10 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 监控 | quay.io/prometheus/alertmanager | v0.15.2 |
 | 监控 | quay.io/prometheus/node-exporter | v1.7.11 |
 | 监控 | quay.io/prometheus/prometheus| v2.4.3 |
-| 监控 | quay.io/prometheus/pushgateway| v0.5.2 |
+| 监控 | quay.io/prometheus/pushgateway| v0.5.2 |********
 | 监控 | quay.io/coreos/kube-state-metrics| v1.4.0 |
-| Dashboard | gcr.io/google_containers/heapster-grafana-amd64| v4.4.3 |
-| Dashboard | gcr.io/google_containers/heapster-amd64| v1.5.4 |
-| Dashboard | gcr.io/google_containers/heapster-influxdb-amd64 | v1.5.2 |
-| Dashboard | k8s.gcr.io/metrics-server-amd64| v0.3.2 |
-| Dashboard | k8s.gcr.io/kubernetes-dashboard-amd64| v1.10.0 |
+| Dashboard | kubernetesui/dashboard| v2.0.0-beta4 |
+| Dashboard | kubernetesui/metrics-scraper| v1.0.1 |
 | 工具 | gcr.io/google-containers/pause-amd64| 3.1 |
 | 工具 | docker.io/registry| 2 |
 | 工具 | docker.io/konradkleine/docker-registry-frontend| v2 |
