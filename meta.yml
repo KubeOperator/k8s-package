@@ -45,14 +45,16 @@ images:
     tag: edge
   - name: docker.io/konradkleine/docker-registry-frontend
     tag: v2
-  - name: docker.io/weaveworks/scope:1.9.1
-    tag: 1.9.1
+  - name: docker.io/weaveworks/scope
+    tag: 1.11.5
   - name: calico/node
-    tag: v3.4.4
+    tag: v3.7.3
   - name: calico/cni
-    tag: v3.4.4
+    tag: v3.7.3
   - name: calico/kube-controllers
-    tag: v3.4.4
+    tag: v3.7.3
+  - name: cluster-proportional-autoscaler-amd64
+    tag: 1.6.0
 vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
@@ -64,23 +66,30 @@ vars:
 
   repo_port: 8083
   registry_port: 8093
-  registry_prefix: "registry.kubeops.io:8092"
+  registry_prefix: "registry.kubeops.io"
   download_path: "repository/raw/1.15.4/k8s.1-15-4.tar.gz"
   file_name: "k8s.1-15-4.tar.gz"
 
+  #kubelet
+  SANDBOX_IMAGE_NAME: "gcr.io/google-containers/pause-amd64"
+  SANDBOX_VERSION: "3.11"
   #dns
   dns_install: true
   dns_image: "docker.io/coredns/coredns"
   dns_version: "1.6.0"
+  cluster-proportional-autoscaler-amd64_image: gcr.io/google-containers/cluster-proportional-autoscaler-amd64
 
   #dashboard
   dashboard_install: true
   dashboard_image: "kubernetesui/dashboard"
   dashboard_version: "v2.0.0-beta4"
+  metrics-scraper_image: kubernetesui/metrics-scraper
+  metrics-scraper_version: v1.0.1
 
   #traefik
   traefik_version: "v1.7.11"
   traefik_image: "docker.io/traefik"
+
 
   #helm
   helm_namespace: kube-system
@@ -95,7 +104,45 @@ vars:
   flanneld_image: "quay.io/coreos/flannel"
   flanneld_version: "v0.11.0-amd64"
 
+
+  #calico
+  calico_ver: "v3.7.3"
+
   #registry
   REGISTRY_ACCOUNT_NAME: admin
   REGISTRY_ACCOUNT_PASSWORD: admin123
   IMAGE_PULL_SECRET: registry-fit2cloud-com-key
+
+  #kuberhealthy
+  kuberhealthy_image: quay.io/comcast/kuberhealthy
+  kuberhealthy_version: v1.0.2
+  kuberhealthy_pause: gcr.io/google_containers/pause
+  kuberhealthy_pause_version: 0.8.0
+
+  #prometheus
+
+
+  alertmanager_image: quay.io/prometheus/alertmanager
+  alertmanager_version: v0.15.2
+  busybox_image: docker.io/busybox
+  busybox_version: 1.31.0
+  node-exporter_image: quay.io/prometheus/node-exporter
+  node-exporter_version: v0.15.2
+  prometheus_image: quay.io/prometheus/prometheus
+  prometheus_version: v2.4.3
+  pushgateway_image: quay.io/prometheus/pushgateway
+  pushgateway_version: v0.5.2
+  kube-state-metrics_image: quay.io/coreos/kube-state-metrics
+  kube-state-metrics_version: v1.4.0
+  configmap-reload_image: quay.io/coreos/configmap-reload
+  configmap-reload_version: v0.0.1
+
+  #grafana
+  grafana_image: docker.io/grafana/grafana
+  grafana_version: 5.2.1
+  curl_image: appropriate/curl
+  curl_version: edge
+
+  #scope
+  scope_image: docker.io/weaveworks/scope
+  scope_version: 1.11.5
