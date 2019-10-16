@@ -1,6 +1,6 @@
 # Kubernetes 离线安装包
 
-KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被构建成一个独立容器镜像供 KubeOperator 使用，安装包括以下三种内容：
+KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被构建成一个独立容器镜像供 KubeOperator 使用，离线安装包中包括以下三种内容：
 
 - Kubenetes 核心组件：包括 Kubenetes、Docker 及 etcd；
 - Kubenetes 附属组件（镜像）：包括网络、存储、监控、Dashboard 及常用工具；
