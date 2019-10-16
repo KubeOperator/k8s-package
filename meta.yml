@@ -75,8 +75,8 @@ vars:
 
   #dashboard
   dashboard_install: true
-  dashboard_image: "k8s.gcr.io/kubernetes-dashboard-amd64"
-  dashboard_version: "v1.10.0"
+  dashboard_image: "kubernetesui/dashboard"
+  dashboard_version: "v2.0.0-beta4"
 
   #traefik
   traefik_version: "v1.7.11"
