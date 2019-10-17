@@ -72,7 +72,7 @@ vars:
 
   #kubelet
   SANDBOX_IMAGE_NAME: "gcr.io/google-containers/pause-amd64"
-  SANDBOX_VERSION: "3.11"
+  SANDBOX_VERSION: "3.1"
   #dns
   dns_install: true
   dns_image: "docker.io/coredns/coredns"
