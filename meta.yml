@@ -45,7 +45,7 @@ images:
     tag: edge
   - name: docker.io/konradkleine/docker-registry-frontend
     tag: v2
-  - name: docker.io/weaveworks/scope
+  - name: weaveworks/scope
     tag: 1.11.5
   - name: calico/node
     tag: v3.7.3
@@ -144,5 +144,5 @@ vars:
   curl_version: edge
 
   #scope
-  scope_image: docker.io/weaveworks/scope
+  scope_image: weaveworks/scope
   scope_version: 1.11.5
