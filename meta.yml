@@ -63,7 +63,6 @@ vars:
   kube_version: "1.15.4"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
-
   repo_port: 8083
   registry_port: 8093
   registry_prefix: "registry.kubeops.io"
@@ -73,6 +72,7 @@ vars:
   #kubelet
   SANDBOX_IMAGE_NAME: "gcr.io/google-containers/pause-amd64"
   SANDBOX_VERSION: "3.1"
+  
   #dns
   dns_install: true
   dns_image: "docker.io/coredns/coredns"
