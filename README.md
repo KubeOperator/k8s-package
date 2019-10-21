@@ -39,7 +39,7 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 工具 | gcr.io/google-containers/pause-amd64| 3.1 |
 | 工具 | docker.io/registry| 2 |
 | 工具 | docker.io/konradkleine/docker-registry-frontend| v2 |
-| 工具 | gcr.io/kubernetes-helm/tiller| v2.12.3 |
+| 工具 | gcr.io/kubernetes-helm/tiller| v2.15.0 |
 | 工具 | quay.io/coreos/configmap-reload| v0.0.1 |
 | 工具 | docker.io/appropriate/curl| edge |
 | 工具 | weaveworks/scope| 1.11.5 |
