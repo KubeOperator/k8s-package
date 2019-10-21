@@ -96,7 +96,7 @@ vars:
   tiller_sa: tiller
   tiller_cert_cn: tiller001
   tiller_image: "gcr.io/kubernetes-helm/tiller"
-  tiller_version: "v2.12.3"
+  tiller_version: "v2.15.0"
 
   #flannel
   NODE_WITH_MULTIPLE_NETWORKS: "true"
