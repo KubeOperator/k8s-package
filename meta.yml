@@ -63,8 +63,8 @@ vars:
   kube_version: "1.15.5"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
-  repo_port: 8083
-  registry_port: 8093
+  repo_port: 8084
+  registry_port: 8094
   registry_prefix: "registry.kubeops.io"
   download_path: "repository/raw/1.15.5/k8s.1-15-5.tar.gz"
   file_name: "k8s.1-15-4.tar.gz"
