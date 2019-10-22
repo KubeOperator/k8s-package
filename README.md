@@ -4,7 +4,7 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 
 - Kubenetes 核心组件：包括 Kubenetes、Docker 及 etcd；
 - Kubenetes 附属组件（镜像）：包括网络、存储、监控、Dashboard 及常用工具；
-- 操作系统 RPM 包：除 CentOS 7.6 Minimal 外的其他必备 RPM。
+- 操作系统 RPM 包：除 CentOS 7.6 Minimal 外的其他必备 RPM。安装包容器运行后是一个标准的 Yum 源服务器。
 
 本分支对应的 Kubernetes 离线包版本是 1.15.4，具体内容及版本信息如下所示。
 
@@ -45,10 +45,11 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 工具 | weaveworks/scope| 1.11.5 |
 | 工具 | quay.io/comcast/kuberhealthy | v1.0.2 |
 
-## 3. RPM 包（基于 CentOS 7.6 Minimal）
+## 3. RPM 包（基于 CentOS 7.6 Minimal 及以上）
 
 |  分类  |  组件名称  |
 |  ---- |  ----   |
 | RPM | dnsmasq  | 
 | RPM | chrony  | 
 | RPM | ntpdate | 
+| RPM | nfs-utils | 
