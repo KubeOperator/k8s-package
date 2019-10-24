@@ -52,4 +52,5 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | RPM | dnsmasq  | 
 | RPM | chrony  | 
 | RPM | ntpdate | 
-| RPM | nfs-utils | 
+| RPM |  rpcbind | 
+| RPM |  nfs-utils | 
