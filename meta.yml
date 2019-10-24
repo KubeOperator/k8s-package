@@ -67,7 +67,7 @@ vars:
   registry_port: 8094
   registry_prefix: "registry.kubeops.io"
   download_path: "repository/raw/1.15.5/k8s.1-15-5.tar.gz"
-  file_name: "k8s.1-15-4.tar.gz"
+  file_name: "k8s.1-15-5.tar.gz"
 
   #kubelet
   SANDBOX_IMAGE_NAME: "gcr.io/google-containers/pause-amd64"
