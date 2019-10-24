@@ -1,3 +1,5 @@
 dnsmasq
 chrony
 ntpdate
+nfs-utils
+rpcbind
