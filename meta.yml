@@ -28,7 +28,7 @@ images:
   - name: gcr.io/kubernetes-helm/tiller
     tag: v2.15.0
   - name: kubernetesui/dashboard
-    tag: v2.0.0-beta4
+    tag: v2.0.0-beta5
   - name: kubernetesui/metrics-scraper
     tag: v1.0.1
   - name: quay.io/coreos/configmap-reload
@@ -82,7 +82,7 @@ vars:
   #dashboard
   dashboard_install: true
   dashboard_image: "kubernetesui/dashboard"
-  dashboard_version: "v2.0.0-beta4"
+  dashboard_version: "v2.0.0-beta5"
   metrics_scraper_image: kubernetesui/metrics-scraper
   metrics_scraper_version: v1.0.1
 
