@@ -1,7 +1,7 @@
-resource: kubernetes-1.15.5
-version: 1.15.5
+resource: kubernetes-1.16.2
+version: 1.16.2
 components:
-  kubernetes: 1.15.5
+  kubernetes: 1.16.2
   etcd: 3.3.10
   docker: docker-ce-18.09.9
 images:
@@ -10,7 +10,7 @@ images:
   - name: docker.io/traefik
     tag: v1.7.11
   - name: docker.io/grafana/grafana
-    tag: 5.2.1
+    tag: 6.4.3
   - name: quay.io/prometheus/alertmanager
     tag: v0.15.2
   - name: docker.io/busybox
@@ -59,15 +59,15 @@ vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
   CONTAINER_RUNTIME: "docker"
-  base_dir: "/opt/kubeOperator-kube-bin/1.15.5"
-  kube_version: "1.15.5"
+  base_dir: "/opt/kubeOperator-kube-bin/1.16.2"
+  kube_version: "1.16.2"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
-  repo_port: 8084
-  registry_port: 8094
+  repo_port: 8085
+  registry_port: 8095
   registry_prefix: "registry.kubeops.io"
-  download_path: "repository/raw/1.15.5/k8s.1-15-5.tar.gz"
-  file_name: "k8s.1-15-5.tar.gz"
+  download_path: "repository/raw/1.16.2/k8s.1-16-2.tar.gz"
+  file_name: "k8s.1-16-2.tar.gz"
 
   #kubelet
   SANDBOX_IMAGE_NAME: "gcr.io/google-containers/pause-amd64"
@@ -135,7 +135,7 @@ vars:
 
   #grafana
   grafana_image: docker.io/grafana/grafana
-  grafana_version: 5.2.1
+  grafana_version: 6.4.3
   curl_image: appropriate/curl
   curl_version: edge
 

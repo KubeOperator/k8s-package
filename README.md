@@ -6,13 +6,13 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 - Kubenetes 附属组件（镜像）：包括网络、存储、监控、Dashboard 及常用工具；
 - 操作系统 RPM 包：除 CentOS 7.6 Minimal 外的其他必备 RPM。
 
-本分支对应的 Kubernetes 离线包版本是 1.15.5，具体内容及版本信息如下所示。
+本分支对应的 Kubernetes 离线包版本是 1.16.2，具体内容及版本信息如下所示。
 
 ## 1. Kubenetes 核心组件
 
 |  分类  |  组件名称   | 版本  |
 |  ---- |  ----  | ----  |
-| 核心 | kubernetes  | 1.15.5 |
+| 核心 | kubernetes  | 1.16.2 |
 | 核心 | etcd  | 3.3.10 |
 | 核心 | docker  | docker-ce-18.09.9 |
 
@@ -28,11 +28,11 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 网络 | docker.io/traefik | v1.7.11 |
 | 网络 | f5networks/k8s-bigip-ctlr | 1.9.2 |
 | 存储 | quay.io/external_storage/nfs-client-provisioner | v3.1.0-k8s1.11 |
-| 监控 | docker.io/grafana/grafana | v1.7.11 |
+| 监控 | docker.io/grafana/grafana | 6.4.3 |
 | 监控 | quay.io/prometheus/alertmanager | v0.15.2 |
-| 监控 | quay.io/prometheus/node-exporter | v1.7.11 |
+| 监控 | quay.io/prometheus/node-exporter | v0.15.2 |
 | 监控 | quay.io/prometheus/prometheus| v2.4.3 |
-| 监控 | quay.io/prometheus/pushgateway| v0.5.2 |********
+| 监控 | quay.io/prometheus/pushgateway| v0.5.2 |
 | 监控 | quay.io/coreos/kube-state-metrics| v1.4.0 |
 | Dashboard | kubernetesui/dashboard| v2.0.0-beta4 |
 | Dashboard | kubernetesui/metrics-scraper| v1.0.1 |
