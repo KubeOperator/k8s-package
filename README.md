@@ -28,11 +28,11 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 网络 | docker.io/traefik | v1.7.11 |
 | 网络 | f5networks/k8s-bigip-ctlr | 1.9.2 |
 | 存储 | quay.io/external_storage/nfs-client-provisioner | v3.1.0-k8s1.11 |
-| 监控 | docker.io/grafana/grafana | v1.7.11 |
+| 监控 | docker.io/grafana/grafana | 5.2.1 |
 | 监控 | quay.io/prometheus/alertmanager | v0.15.2 |
-| 监控 | quay.io/prometheus/node-exporter | v1.7.11 |
+| 监控 | quay.io/prometheus/node-exporter | v0.15.2 |
 | 监控 | quay.io/prometheus/prometheus| v2.4.3 |
-| 监控 | quay.io/prometheus/pushgateway| v0.5.2 |********
+| 监控 | quay.io/prometheus/pushgateway| v0.5.2 |
 | 监控 | quay.io/coreos/kube-state-metrics| v1.4.0 |
 | Dashboard | kubernetesui/dashboard| v2.0.0-beta4 |
 | Dashboard | kubernetesui/metrics-scraper| v1.0.1 |
