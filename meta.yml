@@ -55,6 +55,10 @@ images:
     tag: v3.7.3
   - name: cluster-proportional-autoscaler-amd64
     tag: 1.6.0
+  - name: grafana/loki
+    tag: v0.4.0
+  - name: grafana/promtail
+    tag: v0.4.0
 vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
@@ -142,3 +146,9 @@ vars:
   #scope
   scope_image: weaveworks/scope
   scope_version: 1.11.5
+
+  #loki
+  loki_image: grafana/loki
+  loki_version: v0.4.0
+  promtail_image: grafana/promtail
+  promtail_version: v0.4.0

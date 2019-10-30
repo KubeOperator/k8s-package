@@ -26,3 +26,5 @@ calico/cni:v3.7.3
 calico/kube-controllers:v3.7.3
 quay.io/comcast/kuberhealthy:v1.0.2
 gcr.io/google_containers/pause:0.8.0
+grafana/loki:v0.4.0
+grafana/promtail:v0.4.0
