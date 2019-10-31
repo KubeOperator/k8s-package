@@ -1,5 +1,13 @@
 dnsmasq
+rpcbind
 chrony
 ntpdate
+jq
+ipset
+ipvsadm
+conntrack-tools
+psmisc
 nfs-utils
-rpcbind
+socat
+bash-completion
+rsync
