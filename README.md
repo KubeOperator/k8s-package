@@ -47,38 +47,17 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 
 ## 3. RPM 包（基于 CentOS 7.6 Minimal 及以上）
 
-|  分类  |  组件名称  |
-|  ---- |  ----   |
-| RPM | bash-completion |
-| RPM | chrony |
-| RPM | conntrack-tools |
-| RPM | dnsmasq |
-| RPM | ipset |
-| RPM | ipset-libs |
-| RPM | ipvsadm |
-| RPM | nfs-utils |
-| RPM | ntpdate |
-| RPM | psmisc |
-| RPM | rpcbind |
-| RPM | rsync |
-| RPM | socat |
-| RPM | keyutils |
-| RPM | libbasicobjects |
-| RPM | gssproxy |
-| RPM | libevent |
-| RPM | libcollection |
-| RPM | libpath_utils |
-| RPM | libini_config |
-| RPM | libtirpc |
-| RPM | libnfsidmap |
-| RPM | libref_array |
-| RPM | quota |
-| RPM | libverto-libevent |
-| RPM | quota-nls |
-| RPM | tcp_wrappers |
-| RPM | libseccomp |
-| RPM | libnetfilter_cttimeout |
-| RPM | libnetfilter_cthelper |
-| RPM | libnetfilter_queue |
-| RPM | jq |
-| RPM | oniguruma |
+|  分类  |  组件名称  |  依赖  |
+|  ---- |  ----   |  ----  |
+|  RPM  |  dnsmasq  |  libnetfilter_cttimeout libnetfilter_cthelper libnetfilter_queue  |
+|  RPM  |  chrony  |  libseccomp  |
+|  RPM  |  nfs-utils  |  gssproxy keyutils libbasicobjects libcollection libevent libini_config libnfsidmap libpath_utils libref_array libtirpc libverto-libevent quota quota-nls rpcbind tcp_wrappers  |
+|  RPM  |  jq  |  oniguruma  |
+|  RPM  |  ipset  |  ipset-libs  |
+|  RPM  |  conntrack-tools  |  |
+|  RPM  |  ipvsadm  |  |
+|  RPM  |  psmisc  |  |
+|  RPM  |  socat  |  |
+|  RPM  |  bash-completion  |  |
+|  RPM  |  ntpdate  |  |
+|  RPM  |  rsync  |  |
