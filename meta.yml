@@ -60,6 +60,7 @@ vars:
   ca_dir: "/etc/kubernetes/ssl"
   CONTAINER_RUNTIME: "docker"
   base_dir: "/opt/kubeOperator-kube-bin/1.15.4"
+  kube_version_main: "1.15"
   kube_version: "1.15.4"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
