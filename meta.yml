@@ -117,7 +117,7 @@ vars:
 
   #kuberhealthy
   kuberhealthy_image: quay.io/comcast/kuberhealthy
-  kuberhealthy_version: v1.0.2
+  kuberhealthy_version: v1.1.0-rc3
   kuberhealthy_pause: gcr.io/google_containers/pause
   kuberhealthy_pause_version: 0.8.0
 
