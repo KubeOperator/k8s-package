@@ -30,7 +30,7 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 存储 | quay.io/external_storage/nfs-client-provisioner | v3.1.0-k8s1.11 |
 | 监控 | docker.io/grafana/grafana | 6.4.3 |
 | 监控 | quay.io/prometheus/alertmanager | v0.15.2 |
-| 监控 | quay.io/prometheus/node-exporter | v0.15.2 |
+| 监控 | quay.io/prometheus/node-exporter | v0.18.0 |
 | 监控 | quay.io/prometheus/prometheus| v2.4.3 |
 | 监控 | quay.io/prometheus/pushgateway| v0.5.2 |
 | 监控 | quay.io/coreos/kube-state-metrics| v1.4.0 |

@@ -16,7 +16,7 @@ images:
   - name: docker.io/busybox
     tag: 1.31.0
   - name: quay.io/prometheus/node-exporter
-    tag: v0.15.2
+    tag: v0.18.0
   - name: quay.io/prometheus/prometheus
     tag: v2.4.3
   - name: quay.io/prometheus/pushgateway
@@ -127,7 +127,7 @@ vars:
   busybox_image: docker.io/busybox
   busybox_version: 1.31.0
   node_exporter_image: quay.io/prometheus/node-exporter
-  node_exporter_version: v0.15.2
+  node_exporter_version: v0.18.0
   prometheus_image: quay.io/prometheus/prometheus
   prometheus_version: v2.4.3
   pushgateway_image: quay.io/prometheus/pushgateway

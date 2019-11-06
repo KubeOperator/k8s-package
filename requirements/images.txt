@@ -3,7 +3,7 @@ docker.io/traefik:v1.7.11
 docker.io/grafana/grafana:6.4.3
 quay.io/prometheus/alertmanager:v0.15.2
 docker.io/busybox:1.31.0
-quay.io/prometheus/node-exporter:v0.15.2
+quay.io/prometheus/node-exporter:v0.18.0
 quay.io/prometheus/prometheus:v2.4.3
 quay.io/prometheus/pushgateway:v0.5.2
 docker.io/coredns/coredns:1.6.0
