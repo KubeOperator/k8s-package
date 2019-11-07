@@ -59,5 +59,6 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 |  RPM  |  psmisc  |  |
 |  RPM  |  socat  |  |
 |  RPM  |  bash-completion  |  |
+|  RPM  |  haproxy  |  |
 |  RPM  |  ntpdate  |  |
 |  RPM  |  rsync  |  |
