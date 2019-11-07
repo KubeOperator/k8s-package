@@ -31,3 +31,4 @@ libnetfilter_cthelper
 libnetfilter_queue
 jq
 oniguruma
+haproxy
