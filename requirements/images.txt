@@ -28,3 +28,10 @@ quay.io/comcast/kuberhealthy:v1.1.0-rc3
 gcr.io/google_containers/pause:0.8.0
 grafana/loki:v0.4.0
 grafana/promtail:v0.4.0
+rook/ceph:v1.1.6
+quay.io/cephcsi/cephcsi:v1.2.1
+quay.io/k8scsi/csi-node-driver-registrar:v1.1.0
+quay.io/k8scsi/csi-provisioner:v1.3.0
+quay.io/k8scsi/csi-snapshotter:v1.2.0
+quay.io/k8scsi/csi-attacher:v1.2.0
+ceph/ceph:v14.2.4-20190917

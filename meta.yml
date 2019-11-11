@@ -59,6 +59,20 @@ images:
     tag: v0.4.0
   - name: grafana/promtail
     tag: v0.4.0
+  - name: rook/ceph
+    tag: v1.1.6
+  - name: quay.io/cephcsi/cephcsi
+    tag: v1.2.1
+  - name: quay.io/k8scsi/csi-node-driver-registrar
+    tag: v1.1.0
+  - name: quay.io/k8scsi/csi-provisioner
+    tag: v1.3.0
+  - name: quay.io/k8scsi/csi-snapshotter
+    tag: v1.2.0
+  - name: quay.io/k8scsi/csi-attacher
+    tag: v1.2.0
+  - name: ceph/ceph
+    tag: v14.2.4-20190917
 vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
@@ -152,3 +166,19 @@ vars:
   loki_version: v0.4.0
   promtail_image: grafana/promtail
   promtail_version: v0.4.0
+
+  #rook
+  rook_ceph_name: rook/ceph
+  rook_ceph_tag: v1.1.6
+  cephcsi_name: quay.io/cephcsi/cephcsi
+  cephcsi_tag: v1.2.1
+  csi_node_driver_registrar_name: quay.io/k8scsi/csi-node-driver-registrar
+  csi_node_driver_registrar_tag: v1.1.0
+  csi_provisioner_name: quay.io/k8scsi/csi-provisioner
+  csi_provisioner_tag: v1.3.0
+  csi_snapshotter_name: quay.io/k8scsi/csi-snapshotter
+  csi_snapshotter_tag: v1.2.0
+  csi_attacher_name: quay.io/k8scsi/csi-attacher
+  csi_attacher_tag: v1.2.0
+  ceph_ceph_name: ceph/ceph
+  ceph_ceph_tag: v14.2.4-20190917
