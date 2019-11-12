@@ -41,6 +41,7 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 监控 | quay.io/prometheus/prometheus| v2.4.3 |
 | 监控 | quay.io/prometheus/pushgateway| v0.5.2 |
 | 监控 | quay.io/coreos/kube-state-metrics| v1.4.0 |
+| 监控 | k8s.gcr.io/metrics-server-amd64| v0.3.6 |
 | Dashboard | kubernetesui/dashboard| v2.0.0-beta5 |
 | Dashboard | kubernetesui/metrics-scraper| v1.0.1 |
 | 工具 | gcr.io/google-containers/pause-amd64| 3.1 |

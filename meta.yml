@@ -31,6 +31,8 @@ images:
     tag: v2.0.0-beta5
   - name: kubernetesui/metrics-scraper
     tag: v1.0.1
+  - name: k8s.gcr.io/metrics-server-amd64
+    tag: v0.3.6
   - name: quay.io/coreos/configmap-reload
     tag: v0.0.1
   - name: gcr.io/google-containers/pause-amd64
@@ -97,12 +99,20 @@ vars:
   dns_version: "1.6.0"
   cluster_proportional_autoscaler_amd64_image: gcr.io/google-containers/cluster-proportional-autoscaler-amd64
 
+  #nfs
+  nfs_client_provisioner_image: quay.io/external_storage/nfs-client-provisioner
+  nfs_client_provisioner_version: v3.1.0-k8s1.11
+
   #dashboard
   dashboard_install: true
   dashboard_image: "kubernetesui/dashboard"
   dashboard_version: "v2.0.0-beta5"
   metrics_scraper_image: kubernetesui/metrics-scraper
   metrics_scraper_version: v1.0.1
+
+  #metrics_server
+  metrics_server_amd64_image: k8s.gcr.io/metrics-server-amd64
+  metrics_server_amd64_version: v0.3.6
 
   #traefik
   traefik_version: "v1.7.11"
@@ -168,17 +178,17 @@ vars:
   promtail_version: v0.4.0
 
   #rook
-  rook_ceph_name: rook/ceph
-  rook_ceph_tag: v1.1.6
-  cephcsi_name: quay.io/cephcsi/cephcsi
-  cephcsi_tag: v1.2.1
-  csi_node_driver_registrar_name: quay.io/k8scsi/csi-node-driver-registrar
-  csi_node_driver_registrar_tag: v1.1.0
-  csi_provisioner_name: quay.io/k8scsi/csi-provisioner
-  csi_provisioner_tag: v1.3.0
-  csi_snapshotter_name: quay.io/k8scsi/csi-snapshotter
-  csi_snapshotter_tag: v1.2.0
-  csi_attacher_name: quay.io/k8scsi/csi-attacher
-  csi_attacher_tag: v1.2.0
-  ceph_ceph_name: ceph/ceph
-  ceph_ceph_tag: v14.2.4-20190917
+  rook_ceph_image: rook/ceph
+  rook_ceph_version: v1.1.6
+  cephcsi_image: quay.io/cephcsi/cephcsi
+  cephcsi_version: v1.2.1
+  csi_node_driver_registrar_image: quay.io/k8scsi/csi-node-driver-registrar
+  csi_node_driver_registrar_version: v1.1.0
+  csi_provisioner_image: quay.io/k8scsi/csi-provisioner
+  csi_provisioner_version: v1.3.0
+  csi_snapshotter_image: quay.io/k8scsi/csi-snapshotter
+  csi_snapshotter_version: v1.2.0
+  csi_attacher_image: quay.io/k8scsi/csi-attacher
+  csi_attacher_version: v1.2.0
+  ceph_ceph_image: ceph/ceph
+  ceph_ceph_version: v14.2.4-20190917
