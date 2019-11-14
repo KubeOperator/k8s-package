@@ -99,10 +99,6 @@ vars:
   dns_version: "1.6.0"
   cluster_proportional_autoscaler_amd64_image: gcr.io/google-containers/cluster-proportional-autoscaler-amd64
 
-  #nfs
-  nfs_client_provisioner_image: quay.io/external_storage/nfs-client-provisioner
-  nfs_client_provisioner_version: v3.1.0-k8s1.11
-
   #dashboard
   dashboard_install: true
   dashboard_image: "kubernetesui/dashboard"
