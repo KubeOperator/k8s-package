@@ -135,12 +135,6 @@ vars:
   REGISTRY_ACCOUNT_PASSWORD: admin123
   IMAGE_PULL_SECRET: registry-fit2cloud-com-key
 
-  #kuberhealthy
-  kuberhealthy_image: quay.io/comcast/kuberhealthy
-  kuberhealthy_version: v1.1.0-rc3
-  kuberhealthy_pause: gcr.io/google_containers/pause
-  kuberhealthy_pause_version: 0.8.0
-
   #prometheus
   alertmanager_image: quay.io/prometheus/alertmanager
   alertmanager_version: v0.15.2

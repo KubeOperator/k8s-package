@@ -25,7 +25,6 @@ f5networks/k8s-bigip-ctlr:1.9.2
 calico/node:v3.7.3
 calico/cni:v3.7.3
 calico/kube-controllers:v3.7.3
-quay.io/comcast/kuberhealthy:v1.1.0-rc3
 gcr.io/google_containers/pause:0.8.0
 grafana/loki:v0.4.0
 grafana/promtail:v0.4.0
