@@ -55,8 +55,6 @@ images:
     tag: v3.7.3
   - name: calico/kube-controllers
     tag: v3.7.3
-  - name: cluster-proportional-autoscaler-amd64
-    tag: 1.6.0
   - name: grafana/loki
     tag: v0.4.0
   - name: grafana/promtail
@@ -97,7 +95,6 @@ vars:
   dns_install: true
   dns_image: "docker.io/coredns/coredns"
   dns_version: "1.6.0"
-  cluster_proportional_autoscaler_amd64_image: gcr.io/google-containers/cluster-proportional-autoscaler-amd64
 
   #dashboard
   dashboard_install: true
