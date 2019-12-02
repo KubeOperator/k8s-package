@@ -106,6 +106,7 @@ vars:
   #metrics_server
   metrics_server_amd64_image: k8s.gcr.io/metrics-server-amd64
   metrics_server_amd64_version: v0.3.6
+  metrics-server_install: true
 
   #traefik
   traefik_version: "v1.7.11"
@@ -163,8 +164,10 @@ vars:
   loki_version: v0.4.0
   promtail_image: grafana/promtail
   promtail_version: v0.4.0
+  loki_install: true
 
   #rook
+  storage_rook_ceph_install: true
   rook_ceph_image: rook/ceph
   rook_ceph_version: v1.1.6
   cephcsi_image: quay.io/cephcsi/cephcsi
