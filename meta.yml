@@ -75,8 +75,6 @@ images:
     tag: v14.2.4-20190917
   - name: k8s.gcr.io/node-problem-detector
     tag: v0.8.0
-  - name: registry.aliyuncs.com/acs/kube-eventer-amd64
-    tag: v1.1.0-63e7f98-aliyun
 vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
@@ -192,6 +190,4 @@ vars:
   #eventer
   node_problem_detector_image: k8s.gcr.io/node-problem-detector
   node_problem_detector_version: v0.8.0
-  kube_eventer_amd64_image: registry.aliyuncs.com/acs/kube-eventer-amd64
-  kube_eventer_amd64_version: v1.1.0-63e7f98-aliyun
   npd_install: true
