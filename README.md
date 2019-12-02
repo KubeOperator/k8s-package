@@ -43,7 +43,6 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 | 监控 | quay.io/coreos/kube-state-metrics| v1.4.0 |
 | 监控 | k8s.gcr.io/metrics-server-amd64| v0.3.6 |
 | 监控 | k8s.gcr.io/node-problem-detector| v0.8.0 |
-| 监控 | registry.aliyuncs.com/acs/kube-eventer-amd64| v1.1.0-63e7f98-aliyun |
 | Dashboard | kubernetesui/dashboard| v2.0.0-beta5 |
 | Dashboard | kubernetesui/metrics-scraper| v1.0.1 |
 | 工具 | gcr.io/google-containers/pause-amd64| 3.1 |
