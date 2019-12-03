@@ -106,7 +106,7 @@ vars:
   #metrics_server
   metrics_server_amd64_image: k8s.gcr.io/metrics-server-amd64
   metrics_server_amd64_version: v0.3.6
-  metrics-server_install: true
+  metrics_server_install: true
 
   #traefik
   traefik_version: "v1.7.11"
