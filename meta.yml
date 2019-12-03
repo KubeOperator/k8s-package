@@ -83,6 +83,7 @@ vars:
   kube_version: "1.16.3"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
+  helm_version: "2.16.1"
   repo_port: 8086
   registry_port: 8096
   registry_prefix: "registry.kubeops.io"
