@@ -26,7 +26,7 @@ images:
   - name: quay.io/coreos/flannel
     tag: v0.11.0-amd64
   - name: gcr.io/kubernetes-helm/tiller
-    tag: v2.15.0
+    tag: v2.16.1
   - name: kubernetesui/dashboard
     tag: v2.0.0-beta5
   - name: kubernetesui/metrics-scraper
@@ -81,7 +81,7 @@ vars:
   kube_version: "1.16.2"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
-  helm_version: "2.15.0"
+  helm_version: "2.16.1"
   repo_port: 8085
   registry_port: 8095
   registry_prefix: "registry.kubeops.io"
@@ -119,7 +119,7 @@ vars:
   tiller_sa: tiller
   tiller_cert_cn: tiller001
   tiller_image: "gcr.io/kubernetes-helm/tiller"
-  tiller_version: "v2.15.0"
+  tiller_version: "v2.16.1"
 
   #flannel
   NODE_WITH_MULTIPLE_NETWORKS: "true"
