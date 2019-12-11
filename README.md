@@ -60,7 +60,7 @@ KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被�
 |  RPM  |  dnsmasq  |  libnetfilter_cttimeout libnetfilter_cthelper libnetfilter_queue  |
 |  RPM  |  chrony  |  libseccomp  |
 |  RPM  |  nfs-utils  |  gssproxy keyutils libbasicobjects libcollection libevent libini_config libnfsidmap libpath_utils libref_array libtirpc libverto-libevent quota quota-nls rpcbind tcp_wrappers  |
-|  RPM  |  ceph-common  |  at avahi-libs bc boost-iostreams boost-program-options boost-random boost-regex boost-system boost-thread cryptsetup cups-client cups-libs ed gdisk hdparm libicu librados2 librbd1 m4 mailx patch psmisc python-backports python-backports-ssl_match_hostname python-chardet python-ipaddress python-rados python-rbd python-requests python-six python-urllib3 redhat-lsb-core redhat-lsb-submod-security spax time cryptsetup-libs  |
+|  RPM  |  ceph-common  |  at avahi-libs bc boost-iostreams boost-program-options boost-random boost-regex boost-system boost-thread cryptsetup cups-client cups-libs ed gdisk hdparm json-c libicu librados2 librbd1 m4 mailx patch psmisc python-backports python-backports-ssl_match_hostname python-chardet python-ipaddress python-rados python-rbd python-requests python-six python-urllib3 redhat-lsb-core redhat-lsb-submod-security spax time cryptsetup-libs  |
 |  RPM  |  jq  |  oniguruma  |
 |  RPM  |  ipset  |  ipset-libs  |
 |  RPM  |  conntrack-tools  |  |
