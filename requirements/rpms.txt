@@ -48,6 +48,7 @@ cups-libs
 ed
 gdisk
 hdparm
+json-c
 libicu
 librados2
 librbd1
