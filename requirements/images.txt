@@ -35,3 +35,16 @@ quay.io/k8scsi/csi-snapshotter:v1.2.0
 quay.io/k8scsi/csi-attacher:v1.2.0
 ceph/ceph:v14.2.4-20190917
 k8s.gcr.io/node-problem-detector:v0.8.0
+chartmuseum/chartmuseum:v0.10.0
+docker.io/bitnami/nginx:1.16.1-debian-9-r52
+docker.io/bitnami/kubeapps-apprepository-controller:1.7.1-scratch-r0
+docker.io/bitnami/kubeapps-chart-repo:1.9.0-r2
+docker.io/bitnami/kubectl:1.16.3-r17
+docker.io/bitnami/kubeapps-tiller-proxy:1.7.1-scratch-r0
+docker.io/bitnami/kubeapps-chartsvc:1.9.0-r0
+orangem21/kubeappsplus_dashboard:latest
+docker.io/bitnami/mongodb:4.0.13-debian-9-r22
+docker.io/bitnami/minideb:stretch
+docker.io/bitnami/oauth2-proxy:4.0.0-r92
+
+

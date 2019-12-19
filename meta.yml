@@ -75,6 +75,28 @@ images:
     tag: v14.2.4-20190917
   - name: k8s.gcr.io/node-problem-detector
     tag: v0.8.0
+  - name: chartmuseum/chartmuseum
+    tag: v0.10.0
+  - name: docker.io/bitnami/nginx
+    tag: 1.16.1-debian-9-r52
+  - name: docker.io/bitnami/kubeapps-apprepository-controller
+    tag: 1.7.1-scratch-r0
+  - name: docker.io/bitnami/kubeapps-chart-repo
+    tag: 1.9.0-r2
+  - name: docker.io/bitnami/kubectl
+    tag: 1.16.3-r17
+  - name: docker.io/bitnami/kubeapps-tiller-proxy
+    tag: 1.7.1-scratch-r0
+  - name: docker.io/bitnami/kubeapps-chartsvc
+    tag: 1.9.0-r0
+  - name: orangem21/kubeappsplus_dashboard
+    tag: latest
+  - name: docker.io/bitnami/mongodb
+    tag: 4.0.13-debian-9-r22
+  - name: docker.io/bitnami/minideb
+    tag: stretch
+  - name: docker.io/bitnami/oauth2-proxy
+    tag: 4.0.0-r92
 vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
@@ -192,3 +214,27 @@ vars:
   node_problem_detector_image: k8s.gcr.io/node-problem-detector
   node_problem_detector_version: v0.8.0
   npd_install: true
+
+  #kubeapps
+  chartmuseum_image: chartmuseum/chartmuseum
+  chartmuseum_version: v0.10.0
+  kubeapps_nginx_image: docker.io/bitnami/nginx
+  kubeapps_nginx_version: 1.16.1-debian-9-r52
+  kubeapps_apprepository_controller_image: docker.io/bitnami/kubeapps-apprepository-controller
+  kubeapps_apprepository_controller_version: 1.7.1-scratch-r0
+  kubeapps_chart_repo_image: docker.io/bitnami/kubeapps-chart-repo
+  kubeapps_chart_repo_version: 1.9.0-r2
+  kubeapps_kubectl_image: docker.io/bitnami/kubectl
+  kubeapps_kubectl_version: 1.16.3-r17
+  kubeapps_tiller_proxy_image: docker.io/bitnami/kubeapps-tiller-proxy
+  kubeapps_tiller_proxy_version: 1.7.1-scratch-r0
+  kubeapps_chartsvc_image: docker.io/bitnami/kubeapps-chartsvc
+  kubeapps_chartsvc_version: 1.9.0-r0
+  kubeappsplus_dashboard_image: orangem21/kubeappsplus_dashboard
+  kubeappsplus_dashboard_version: latest
+  kubeapps_mongodb_image: docker.io/bitnami/mongodb
+  kubeapps_mongodb_version: 4.0.13-debian-9-r22
+  kubeapps_minideb_image: docker.io/bitnami/minideb
+  kubeapps_minideb_version: stretch
+  kubeapps_oauth2_proxy_image: docker.io/bitnami/oauth2-proxy
+  kubeapps_oauth2_proxy_version: 4.0.0-r92
