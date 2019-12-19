@@ -1,7 +1,7 @@
-resource: kubernetes-1.16.3
-version: 1.16.3
+resource: kubernetes-1.16.4
+version: 1.16.4
 components:
-  kubernetes: 1.16.3
+  kubernetes: 1.16.4
   etcd: 3.3.10
   docker: docker-ce-18.09.9
 images:
@@ -79,16 +79,16 @@ vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
   CONTAINER_RUNTIME: "docker"
-  base_dir: "/opt/kubeOperator-kube-bin/1.16.3"
-  kube_version: "1.16.3"
+  base_dir: "/opt/kubeOperator-kube-bin/1.16.4"
+  kube_version: "1.16.4"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
   helm_version: "2.16.1"
-  repo_port: 8086
-  registry_port: 8096
+  repo_port: 8088
+  registry_port: 8098
   registry_prefix: "registry.kubeops.io"
-  download_path: "repository/raw/1.16.3/k8s.1-16-3.tar.gz"
-  file_name: "k8s.1-16-3.tar.gz"
+  download_path: "repository/raw/1.16.4/k8s.1-16-4.tar.gz"
+  file_name: "k8s.1-16-4.tar.gz"
 
   #kubelet
   SANDBOX_IMAGE_NAME: "gcr.io/google-containers/pause-amd64"
