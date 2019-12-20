@@ -89,8 +89,8 @@ images:
     tag: 1.7.1-scratch-r0
   - name: docker.io/bitnami/kubeapps-chartsvc
     tag: 1.9.0-r0
-  - name: orangem21/kubeappsplus_dashboard
-    tag: latest
+  - name: docker.io/kubeoperator/kubeapps-plus
+    tag: v1.0
   - name: docker.io/bitnami/mongodb
     tag: 4.0.13-debian-9-r22
   - name: docker.io/bitnami/minideb
@@ -230,8 +230,8 @@ vars:
   kubeapps_tiller_proxy_version: 1.7.1-scratch-r0
   kubeapps_chartsvc_image: docker.io/bitnami/kubeapps-chartsvc
   kubeapps_chartsvc_version: 1.9.0-r0
-  kubeappsplus_dashboard_image: orangem21/kubeappsplus_dashboard
-  kubeappsplus_dashboard_version: latest
+  kubeappsplus_dashboard_image: docker.io/kubeoperator/kubeapps-plus
+  kubeappsplus_dashboard_version: v1.0
   kubeapps_mongodb_image: docker.io/bitnami/mongodb
   kubeapps_mongodb_version: 4.0.13-debian-9-r22
   kubeapps_minideb_image: docker.io/bitnami/minideb
