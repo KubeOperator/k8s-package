@@ -216,6 +216,9 @@ vars:
   npd_install: true
 
   #kubeapps
+  kubeapps_install: true
+  kubeapps_registry_hostname: registry.kubeapps.fit2cloud.com
+  kubeapps_chartmuseum_hostname: chartmuseum.kubeapps.fit2cloud.com
   chartmuseum_image: chartmuseum/chartmuseum
   chartmuseum_version: v0.10.0
   kubeapps_nginx_image: docker.io/bitnami/nginx
