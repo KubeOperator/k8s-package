@@ -56,9 +56,9 @@ images:
   - name: calico/kube-controllers
     tag: v3.7.3
   - name: grafana/loki
-    tag: v0.4.0
+    tag: v1.2.0
   - name: grafana/promtail
-    tag: v0.4.0
+    tag: v1.2.0
   - name: rook/ceph
     tag: v1.1.6
   - name: quay.io/cephcsi/cephcsi
@@ -187,9 +187,9 @@ vars:
 
   #loki
   loki_image: grafana/loki
-  loki_version: v0.4.0
+  loki_version: v1.2.0
   promtail_image: grafana/promtail
-  promtail_version: v0.4.0
+  promtail_version: v1.2.0
   loki_install: true
 
 
