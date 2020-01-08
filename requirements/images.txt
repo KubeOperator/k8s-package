@@ -46,5 +46,7 @@ docker.io/kubeoperator/kubeapps-plus:v1.0
 docker.io/bitnami/mongodb:4.0.13-debian-9-r22
 docker.io/bitnami/minideb:stretch
 docker.io/bitnami/oauth2-proxy:4.0.0-r92
+nvidia/k8s-device-plugin:1.0.0-beta
+
 
 

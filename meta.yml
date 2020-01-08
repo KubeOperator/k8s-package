@@ -97,6 +97,9 @@ images:
     tag: stretch
   - name: docker.io/bitnami/oauth2-proxy
     tag: 4.0.0-r92
+  - name: nvidia/k8s-device-plugin
+    tag: 1.0.0-beta
+
 vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"

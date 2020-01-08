@@ -70,3 +70,6 @@ redhat-lsb-submod-security
 spax
 time
 cryptsetup-libs
+nvidia-container-runtime
+dkms
+cuda-drivers
