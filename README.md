@@ -2,9 +2,9 @@
 
 KubeOperator 提供完整的 Kubernetes 离线安装包，每个安装包会被构建成一个独立容器镜像供 KubeOperator 使用，离线安装包中包括以下三种内容：
 
-- Kubenetes 核心组件：包括 Kubenetes、Docker 及 etcd；
-- Kubenetes 附属组件：包括网络、存储、监控、日志、管理工具及内置应用等的镜像；
-- 操作系统 RPM 包：除 CentOS 7.4+ Minimal 外的其他必备 RPM。
+- 核心组件：包括 Kubenetes、Docker 及 etcd；
+- 镜像：包括网络、存储、监控、日志、管理工具及内置应用等的镜像；
+- RPM：除 CentOS 7.4+ Minimal 外的其他必备 RPM。
 
 本分支对应的 Kubernetes 离线包版本是 1.16.4，具体内容及版本信息如下所示。
 
