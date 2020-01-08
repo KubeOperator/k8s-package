@@ -35,3 +35,4 @@ quay.io/k8scsi/csi-snapshotter:v1.2.0
 quay.io/k8scsi/csi-attacher:v1.2.0
 ceph/ceph:v14.2.4-20190917
 k8s.gcr.io/node-problem-detector:v0.8.0
+nvidia/k8s-device-plugin:1.0.0-beta
