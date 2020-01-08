@@ -32,3 +32,8 @@ libnetfilter_queue
 jq
 oniguruma
 haproxy
+nvidia-container-runtime
+dkms
+cuda-drivers
+
+
