@@ -73,6 +73,9 @@ images:
     tag: v1.2.0
   - name: ceph/ceph
     tag: v14.2.4-20190917
+  - name: nvidia/k8s-device-plugin
+    tag: 1.0.0-beta
+
 vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
