@@ -244,3 +244,6 @@ vars:
   kubeapps_minideb_version: stretch
   kubeapps_oauth2_proxy_image: docker.io/bitnami/oauth2-proxy
   kubeapps_oauth2_proxy_version: 4.0.0-r92
+  
+  #gpu
+  gpu_install: true
