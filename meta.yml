@@ -48,7 +48,7 @@ images:
   - name: docker.io/konradkleine/docker-registry-frontend
     tag: v2
   - name: weaveworks/scope
-    tag: 1.11.5
+    tag: 1.12.0
   - name: calico/node
     tag: v3.7.3
   - name: calico/cni
@@ -186,7 +186,7 @@ vars:
 
   #scope
   scope_image: weaveworks/scope
-  scope_version: 1.11.5
+  scope_version: 1.12.0
 
   #loki
   loki_image: grafana/loki
