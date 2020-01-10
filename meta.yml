@@ -246,4 +246,4 @@ vars:
   kubeapps_oauth2_proxy_version: 4.0.0-r92
   
   #gpu
-  gpu_install: true
+  gpu_install: false
