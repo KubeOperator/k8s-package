@@ -11,6 +11,8 @@ images:
     tag: v1.7.11
   - name: docker.io/grafana/grafana
     tag: 6.4.3
+  - name: docker.io/busybox
+    tag: 1.31.0
   - name: prom/alertmanager
     tag: v0.20.0
   - name: jimmidyson/configmap-reload
@@ -169,6 +171,8 @@ vars:
   kube_state_metrics_version: v1.9.1
   configmap_reload_image: jimmidyson/configmap-reload
   configmap_reload_version: v0.3.0
+  busybox_image: docker.io/busybox
+  busybox_version: 1.31.0
 
   #grafana
   grafana_image: docker.io/grafana/grafana
