@@ -11,16 +11,16 @@ images:
     tag: v1.7.11
   - name: docker.io/grafana/grafana
     tag: 6.4.3
-  - name: quay.io/prometheus/alertmanager
-    tag: v0.15.2
-  - name: docker.io/busybox
-    tag: 1.31.0
-  - name: quay.io/prometheus/node-exporter
-    tag: v0.18.0
-  - name: quay.io/prometheus/prometheus
-    tag: v2.4.3
-  - name: quay.io/prometheus/pushgateway
-    tag: v0.5.2
+  - name: prom/alertmanager
+    tag: v0.20.0
+  - name: jimmidyson/configmap-reload
+    tag: v0.3.0
+  - name: quay.io/coreos/kube-state-metrics
+    tag: v1.9.1
+  - name: prom/node-exporter
+    tag: v0.18.1
+  - name: prom/prometheus
+    tag: v2.15.2
   - name: docker.io/coredns/coredns
     tag: 1.6.0
   - name: quay.io/coreos/flannel
@@ -33,16 +33,12 @@ images:
     tag: v1.0.1
   - name: k8s.gcr.io/metrics-server-amd64
     tag: v0.3.6
-  - name: quay.io/coreos/configmap-reload
-    tag: v0.0.1
   - name: gcr.io/google-containers/pause-amd64
     tag: 3.1
   - name: docker.io/registry
     tag: 2
   - name: docker.io/alpine
     tag: 3.6
-  - name: quay.io/coreos/kube-state-metrics
-    tag: v1.4.0
   - name: appropriate/curl
     tag: edge
   - name: docker.io/konradkleine/docker-registry-frontend
@@ -163,20 +159,16 @@ vars:
   IMAGE_PULL_SECRET: registry-fit2cloud-com-key
 
   #prometheus
-  alertmanager_image: quay.io/prometheus/alertmanager
-  alertmanager_version: v0.15.2
-  busybox_image: docker.io/busybox
-  busybox_version: 1.31.0
-  node_exporter_image: quay.io/prometheus/node-exporter
-  node_exporter_version: v0.18.0
-  prometheus_image: quay.io/prometheus/prometheus
-  prometheus_version: v2.4.3
-  pushgateway_image: quay.io/prometheus/pushgateway
-  pushgateway_version: v0.5.2
+  alertmanager_image:  prom/alertmanager
+  alertmanager_version: v0.20.0
+  node_exporter_image: prom/node-exporter
+  node_exporter_version: v0.18.1
+  prometheus_image: prom/prometheus
+  prometheus_version: v2.15.2
   kube_state_metrics_image: quay.io/coreos/kube-state-metrics
-  kube_state_metrics_version: v1.4.0
-  configmap_reload_image: quay.io/coreos/configmap-reload
-  configmap_reload_version: v0.0.1
+  kube_state_metrics_version: v1.9.1
+  configmap_reload_image: jimmidyson/configmap-reload
+  configmap_reload_version: v0.3.0
 
   #grafana
   grafana_image: docker.io/grafana/grafana
