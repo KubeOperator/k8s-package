@@ -2,8 +2,8 @@ registry="registry.fit2cloud.com/public"
 for i in $(cat requirements/images.txt);
 do
   docker pull $registry/$i;
-  docker tag  $registry/$i localhost:8092/$i;
-  docker push localhost:8092/$i;
+  docker tag  $registry/$i localhost:8093/$i;
+  docker push localhost:8093/$i;
 done
 
 yum clean all
