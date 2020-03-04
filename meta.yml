@@ -107,8 +107,8 @@ vars:
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
   helm_version: "2.16.1"
-  repo_port: 8088
-  registry_port: 8098
+  repo_port: 8089
+  registry_port: 8099
   registry_prefix: "registry.kubeops.io"
   download_path: "repository/raw/1.16.7/k8s.1-16-7.tar.gz"
   file_name: "k8s.1-16-7.tar.gz"
