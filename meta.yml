@@ -233,7 +233,7 @@ vars:
   kubeapps_chartsvc_image: docker.io/bitnami/kubeapps-chartsvc
   kubeapps_chartsvc_version: 1.9.0-r0
   kubeappsplus_dashboard_image: docker.io/kubeoperator/kubeapps-plus
-  kubeappsplus_dashboard_version: v1.0
+  kubeappsplus_dashboard_version: v1.15
   kubeapps_mongodb_image: docker.io/bitnami/mongodb
   kubeapps_mongodb_version: 4.0.13-debian-9-r22
   kubeapps_minideb_image: docker.io/bitnami/minideb
