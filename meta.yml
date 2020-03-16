@@ -1,7 +1,7 @@
-resource: kubernetes-1.16.7
-version: 1.16.7
+resource: kubernetes-1.16.8
+version: 1.16.8
 components:
-  kubernetes: 1.16.7
+  kubernetes: 1.16.8
   etcd: 3.3.10
   docker: docker-ce-18.09.9
 images:
@@ -30,9 +30,9 @@ images:
   - name: gcr.io/kubernetes-helm/tiller
     tag: v2.16.1
   - name: kubernetesui/dashboard
-    tag: v2.0.0-beta5
+    tag: v2.0.0-rc3
   - name: kubernetesui/metrics-scraper
-    tag: v1.0.1
+    tag: v1.0.3
   - name: k8s.gcr.io/metrics-server-amd64
     tag: v0.3.6
   - name: gcr.io/google-containers/pause-amd64
@@ -102,16 +102,16 @@ vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
   CONTAINER_RUNTIME: "docker"
-  base_dir: "/opt/kubeOperator-kube-bin/1.16.7"
-  kube_version: "1.16.7"
+  base_dir: "/opt/kubeOperator-kube-bin/1.16.8"
+  kube_version: "1.16.8"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
   helm_version: "2.16.1"
-  repo_port: 8089
-  registry_port: 8099
+  repo_port: 8180
+  registry_port: 8190
   registry_prefix: "registry.kubeops.io"
-  download_path: "repository/raw/1.16.7/k8s.1-16-7.tar.gz"
-  file_name: "k8s.1-16-7.tar.gz"
+  download_path: "repository/raw/1.16.8/k8s.1-16-8.tar.gz"
+  file_name: "k8s.1-16-8.tar.gz"
 
   #kubelet
   SANDBOX_IMAGE_NAME: "gcr.io/google-containers/pause-amd64"
@@ -125,9 +125,9 @@ vars:
   #dashboard
   dashboard_install: true
   dashboard_image: "kubernetesui/dashboard"
-  dashboard_version: "v2.0.0-beta5"
+  dashboard_version: "v2.0.0-rc3"
   metrics_scraper_image: kubernetesui/metrics-scraper
-  metrics_scraper_version: v1.0.1
+  metrics_scraper_version: v1.0.3
 
   #metrics_server
   metrics_server_amd64_image: k8s.gcr.io/metrics-server-amd64

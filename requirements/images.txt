@@ -10,8 +10,8 @@ prom/prometheus:v2.15.2
 docker.io/coredns/coredns:1.6.0
 quay.io/coreos/flannel:v0.11.0-amd64
 gcr.io/kubernetes-helm/tiller:v2.16.1
-kubernetesui/dashboard:v2.0.0-beta5
-kubernetesui/metrics-scraper:v1.0.1
+kubernetesui/dashboard:v2.0.0-rc3
+kubernetesui/metrics-scraper:v1.0.3
 k8s.gcr.io/metrics-server-amd64:v0.3.6
 gcr.io/google-containers/pause-amd64:3.1
 docker.io/registry:2
