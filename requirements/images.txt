@@ -11,15 +11,12 @@ prom/prometheus:v2.15.2
 docker.io/coredns/coredns:1.6.0
 quay.io/coreos/flannel:v0.11.0-amd64
 gcr.io/kubernetes-helm/tiller:v2.16.1
-kubernetesui/dashboard:v2.0.0-rc3
-kubernetesui/metrics-scraper:v1.0.3
 k8s.gcr.io/metrics-server-amd64:v0.3.6
 gcr.io/google-containers/pause-amd64:3.1
 docker.io/registry:2
 docker.io/alpine:3.6
 docker.io/konradkleine/docker-registry-frontend:v2
 appropriate/curl:edge
-weaveworks/scope:1.12.0
 f5networks/k8s-bigip-ctlr:1.9.2
 calico/node:v3.7.3
 calico/cni:v3.7.3
