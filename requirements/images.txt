@@ -39,7 +39,7 @@ docker.io/bitnami/kubeapps-chart-repo:1.9.0-r2
 docker.io/bitnami/kubectl:1.16.3-r17
 docker.io/bitnami/kubeapps-tiller-proxy:1.7.1-scratch-r0
 docker.io/bitnami/kubeapps-chartsvc:1.9.0-r0
-docker.io/kubeoperator/kubeapps-plus:v1.20
+docker.io/kubeoperator/kubeapps-plus:v1.22
 docker.io/bitnami/mongodb:4.0.13-debian-9-r22
 docker.io/bitnami/minideb:stretch
 docker.io/bitnami/oauth2-proxy:4.0.0-r92
