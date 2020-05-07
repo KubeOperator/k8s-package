@@ -1,7 +1,7 @@
-resource: kubernetes-1.16.8
-version: 1.16.8
+resource: kubernetes-1.16.9
+version: 1.16.9
 components:
-  kubernetes: 1.16.8
+  kubernetes: 1.16.9
   etcd: 3.3.10
   docker: docker-ce-18.09.9
 images:
@@ -98,16 +98,16 @@ vars:
   bin_dir: "/usr/local/bin"
   ca_dir: "/etc/kubernetes/ssl"
   CONTAINER_RUNTIME: "docker"
-  base_dir: "/opt/kubeOperator-kube-bin/1.16.8"
-  kube_version: "1.16.8"
+  base_dir: "/opt/kubeOperator-kube-bin/1.16.9"
+  kube_version: "1.16.9"
   docker_version: "18.09.9"
   etcd_version: "3.3.10"
   helm_version: "2.16.1"
-  repo_port: 8180
-  registry_port: 8190
+  repo_port: 8181
+  registry_port: 8191
   registry_prefix: "registry.kubeops.io"
-  download_path: "repository/raw/1.16.8/k8s.1-16-8.tar.gz"
-  file_name: "k8s.1-16-8.tar.gz"
+  download_path: "repository/raw/1.16.9/k8s.1-16-9.tar.gz"
+  file_name: "k8s.1-16-9.tar.gz"
 
   #kubelet
   SANDBOX_IMAGE_NAME: "gcr.io/google-containers/pause-amd64"
@@ -202,7 +202,7 @@ vars:
   npd_install: true
 
   #kubeapps
-  kubeapps_install: true
+  kubeapps_install: false
   kubeapps_registry_hostname: registry.kubeapps.fit2cloud.com
   kubeapps_chartmuseum_hostname: chartmuseum.kubeapps.fit2cloud.com
   chartmuseum_image: chartmuseum/chartmuseum
